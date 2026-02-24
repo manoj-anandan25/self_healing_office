@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env
+
+# Logs
+incident.log
+
+# Sensitive Jira config
+config/jira.yaml
+
+# OS junk
+.DS_Store
+Thumbs.db
