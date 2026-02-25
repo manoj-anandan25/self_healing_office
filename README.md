@@ -17,9 +17,9 @@
 ---
 
 ###  Problem Statement
-In large-scale enterprise environments, manual network triage is the primary driver of high **MTTR (Mean Time To Resolution)**. Reactive documentation leads to inconsistent RCA (Root Cause Analysis) and delayed incident response. 
+In enterprise IT environments, manual network triage is the primary driver of high **MTTR (Mean Time To Resolution)**. Reactive documentation often leads to inconsistent RCA (Root Cause Analysis) and delayed incident response. 
 
-**The Solution:** This project simulates a proactive "Self-Healing" agent that automates the transition from **Detection** to **Documentation**, ensuring every network failure is classified, logged, and mapped to a resolution runbook in seconds—not hours.
+**The Solution:** This project simulates a proactive "Self-Healing" agent that automates the transition from **Detection** to **Documentation**, ensuring every network failure is classified, logged, and mapped to a resolution runbook in seconds.
 
 ###  Engineering Highlights
 - **Automated Triage Engine:** Classifies failures into LAN, DNS, Routing, or ISP tiers using multi-stage health signals.
@@ -29,7 +29,21 @@ In large-scale enterprise environments, manual network triage is the primary dri
 
 ---
 
+###  Tech Stack
+
+| Category | Technology |
+| :--- | :--- |
+| **Language** | Python 3.9+ |
+| **Configuration** | YAML (Thresholds & Endpoints) |
+| **Monitoring** | ICMP Ping, DNS resolution, Traceroute |
+| **Reporting** | Markdown (Jira-style templates) |
+| **Logging** | Python Logging Library |
+| **Testing** | Pytest |
+
+---
+
 ###  Repository Architecture
+
 ```text
 self-healing-office/
 ├── config/          # YAML-based thresholds & monitoring endpoints
@@ -61,8 +75,6 @@ python main.py
 
 ```
 
-
-
 ---
 
 ###  Sample Automated Output (Jira-Style)
@@ -73,6 +85,14 @@ python main.py
 > **RCA:** `Upstream Provider Timeout (8.8.8.8)`
 > **Action:** `Switched to Secondary Resolver; Logged for Audit.`
 > **Runbook:** `[view-dns-sop.md](./runbooks/dns.md)`
+
+---
+
+###  Future Enhancements
+
+* [ ] **API Integration:** Direct hooks for Jira and ServiceNow ticket creation.
+* [ ] **Distributed Monitoring:** Multi-host scaling for global network environments.
+* [ ] **Observability:** Prometheus metrics export for Grafana dashboarding.
 
 ---
 
@@ -89,10 +109,5 @@ python main.py
 <p align="center"> Developed by <b>Manoj Anandan</b> </p>
 
 ```
-
------
-
-
-**Ready to move to the `net-config-bot`?** I can give it the same "Enterprise Treatment" to make it look like a professional DevOps tool.
 
 ```
