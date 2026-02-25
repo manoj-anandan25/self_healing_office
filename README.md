@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/caf62ecd-f1ef-4aa7-87c1-acb154c577eb" alt="Enterprise Architecture" width="800">
 </p>
 
-<h1 align="center">🛠️ Self-Healing Office</h1>
+<h1 align="center"> Self-Healing Office</h1>
 
 <p align="center">
   <b>Enterprise Network Incident Lifecycle & Automated Triage Engine</b>
@@ -64,19 +64,20 @@ self-healing-office/
 
 ###  Setup & Execution
 
-1. **Environment Setup**
+1. **Clone the Repository**
 ```bash
-git clone [https://github.com/manoj-anandan25/self_healing_office.git](https://github.com/manoj-anandan25/self_healing_office.git)
+git clone https://github.com/manoj-anandan25/self_healing_office.git
 cd self_healing_office
-pip install -r requirements.txt
-
 ```
 
+2. **Install Dependencies**
+```bash
+pip install -r requirements.txt
+```
 
-2. **Run the Simulation**
+3. **Run the Application**
 ```bash
 python main.py
-
 ```
 
 ###  Sample Automated Output (Jira-Style)
@@ -107,7 +108,7 @@ python main.py
 </p>
 
 ---
-
 <p align="center"> Developed by <b>Manoj Anandan</b> </p>
+---
 
 ```
