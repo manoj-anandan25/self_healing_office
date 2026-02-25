@@ -89,7 +89,7 @@ How It Works
 - Unit testing included
 - Clean separation of concerns
 
-Tech Stack
+### Tech Stack
 | Category      | Technology                 |
 |--------------|----------------------------|
 | Language     | Python 3                   |
@@ -100,9 +100,9 @@ Tech Stack
 | Testing      | Pytest                     |
 | Architecture | Modular Design             |
 
-Enterprise Value
+### Enterprise Value
 This project simulates a real IT operations workflow:
-Incident lifecycle automation
+- Incident lifecycle automation
 Failure classification
 Root cause reporting
 Documentation-first design
