@@ -85,4 +85,4 @@ This project simulates a real IT operations workflow:
 - Failure classification
 - Root cause reporting
 - Documentation-first design
-Next step: Jira API integration + multi-host scaling.
+- Next step: Jira API integration + multi-host scaling.
