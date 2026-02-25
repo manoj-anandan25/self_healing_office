@@ -3,9 +3,6 @@
 ## Overview
 A Python-based agent that monitors network health, classifies failures, generates incidents, and produces post-incident reports. Designed to simulate enterprise triage workflows (LAN/WLAN, DNS, routing, ISP).
 
-<img width="1536" height="1024" alt="architecture jpg" src="https://github.com/user-attachments/assets/caf62ecd-f1ef-4aa7-87c1-acb154c577eb" />
-
-
 ## Architecture
 self-healing-office/ 
 ├── config/              # Endpoints & thresholds 
@@ -19,28 +16,9 @@ self-healing-office/
 ├── tests/               # Unit tests 
 └── main.py              # Entry point
 
- Self-Healing Office
-
-Enterprise-Style Network Incident Detection & Automated Triage System
-
-Overview
-
-Self-Healing Office is a Python-based network triage agent that simulates how enterprise IT teams detect, classify, and respond to network incidents.
-
-It automatically:
-- Monitors network health
-- Classifies failures
-- Generates incident tickets
-- Produces post-incident RCA reports
-- Links incidents directly to troubleshooting runbooks
-
-This project demonstrates enterprise-grade automation, modular architecture, and systems thinking.
-
-Architecture Diagram
-
 <img width="1536" height="1024" alt="architecture jpg" src="https://github.com/user-attachments/assets/caf62ecd-f1ef-4aa7-87c1-acb154c577eb" />
 
-System Architecture Overview
+##### System Architecture Overview
 
 1. Monitoring Layer
 - Ping checks
@@ -61,8 +39,7 @@ System Architecture Overview
 - Packet loss
 - Wi-Fi outage
 
-How It Works
-
+##### How It Works
 1. Health checks run
 3. Failure classified
 3. Root cause suggested
@@ -71,13 +48,13 @@ How It Works
 6. RCA report generated
 7. Runbook linked
 
-##Execution Output
+### Execution Output
 
 <img width="1377" height="832" alt="output1" src="https://github.com/user-attachments/assets/bd8bbd52-d3d9-413c-81b5-555a12cc5e36" />
 <img width="1313" height="822" alt="output2" src="https://github.com/user-attachments/assets/1aac5b8b-929f-4c99-9ce8-85e1b2e67e26" />
 <img width="1147" height="811" alt="output3" src="https://github.com/user-attachments/assets/03deafb7-e177-4c1e-b658-852e6c06a3ea" />
 
-###Feature Highlights
+### Feature Highlights
 - Dry-run safe mode
 - Config-driven thresholds (YAML)
 - Modular enterprise architecture
@@ -103,7 +80,7 @@ How It Works
 ### Enterprise Value
 This project simulates a real IT operations workflow:
 - Incident lifecycle automation
-Failure classification
-Root cause reporting
-Documentation-first design
+- Failure classification
+- Root cause reporting
+- Documentation-first design
 Next step: Jira API integration + multi-host scaling.
