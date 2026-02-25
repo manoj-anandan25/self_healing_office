@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/caf62ecd-f1ef-4aa7-87c1-acb154c577eb" alt="Enterprise Architecture" width="800">
 </p>
 
-<h1 align="center"> Self-Healing Office</h1>
+<h1 align="center">🛠️ Self-Healing Office</h1>
 
 <p align="center">
   <b>Enterprise Network Incident Lifecycle & Automated Triage Engine</b>
@@ -16,16 +16,21 @@
 
 ---
 
-###  Problem Statement
-In enterprise IT environments, manual network triage is the primary driver of high **MTTR (Mean Time To Resolution)**. Reactive documentation often leads to inconsistent RCA (Root Cause Analysis) and delayed incident response. 
+###  Why This Project Matters
+Traditional network monitoring tools only alert; they don't analyze. In high-stakes enterprise environments, the gap between **Alerting** and **Resolution** is where money is lost. 
 
-**The Solution:** This project simulates a proactive "Self-Healing" agent that automates the transition from **Detection** to **Documentation**, ensuring every network failure is classified, logged, and mapped to a resolution runbook in seconds.
+This project simulates a proactive system that **diagnoses, classifies, and documents** incidents in real-time. By automating the triage layer, it demonstrates:
+- **SRE Thinking:** Shifting from reactive firefighting to automated reliability.
+- **MTTR Reduction:** Eliminating manual steps in the incident documentation phase.
+- **Production Observability:** Bridging the gap between raw network signals and actionable Jira-style reports.
+
+---
 
 ###  Engineering Highlights
-- **Automated Triage Engine:** Classifies failures into LAN, DNS, Routing, or ISP tiers using multi-stage health signals.
-- **Dynamic Severity Mapping:** Real-time P1–P4 escalation logic based on pre-defined enterprise thresholds.
-- **Observability-First Design:** Implements structured logging and automated Jira-style Markdown ticket generation.
-- **Modular Architecture:** Clean separation of concerns between monitoring, diagnostics, and reporting layers.
+- **Automated Triage Engine:** High-fidelity failure classification (LAN, DNS, Routing, ISP) using multi-stage health signals.
+- **Dynamic Severity Mapping:** Real-time P1–P4 escalation logic based on production-grade thresholds.
+- **Observability-First Design:** Structured logging paired with automated Markdown-based RCA generation.
+- **Modular Architecture:** Clean separation of concerns ensuring the system is scalable and vendor-agnostic.
 
 ---
 
@@ -34,10 +39,9 @@ In enterprise IT environments, manual network triage is the primary driver of hi
 | Category | Technology |
 | :--- | :--- |
 | **Language** | Python 3.9+ |
-| **Configuration** | YAML (Thresholds & Endpoints) |
-| **Monitoring** | ICMP Ping, DNS resolution, Traceroute |
-| **Reporting** | Markdown (Jira-style templates) |
-| **Logging** | Python Logging Library |
+| **Configuration** | YAML (Dynamic Thresholds) |
+| **Monitoring** | ICMP Ping, DNS Query, Traceroute |
+| **Reporting** | Markdown (Jira-Style Templates) |
 | **Testing** | Pytest |
 
 ---
@@ -47,12 +51,12 @@ In enterprise IT environments, manual network triage is the primary driver of hi
 ```text
 self-healing-office/
 ├── config/          # YAML-based thresholds & monitoring endpoints
-├── monitoring/      # Health probes (ICMP Ping, DNS Query, Traceroute)
+├── monitoring/      # Health probes (Network Signal Detection)
 ├── diagnostics/     # RCA Engine & Failure Classification logic
-├── incidents/       # Incident lifecycle & P1-P4 mapping
-├── reports/         # Automated Post-Incident RCA generation
-├── runbooks/        # Markdown-based standard operating procedures (SOPs)
-└── main.py          # Application Entry Point
+├── incidents/       # Severity mapping & Ticket generation
+├── reports/         # Automated Post-Incident documentation
+├── runbooks/        # Markdown-based Standard Operating Procedures (SOPs)
+└── main.py          # Core Application Entry Point
 
 ```
 
@@ -75,8 +79,6 @@ python main.py
 
 ```
 
----
-
 ###  Sample Automated Output (Jira-Style)
 
 > **Incident ID:** `INC-20260225-01`
@@ -88,11 +90,11 @@ python main.py
 
 ---
 
-###  Future Enhancements
+###  Future Roadmap
 
-* [ ] **API Integration:** Direct hooks for Jira and ServiceNow ticket creation.
-* [ ] **Distributed Monitoring:** Multi-host scaling for global network environments.
-* [ ] **Observability:** Prometheus metrics export for Grafana dashboarding.
+* [ ] **Jira/ServiceNow API:** Bi-directional sync for automated ticket lifecycle management.
+* [ ] **Distributed Probing:** Multi-node monitoring for global infrastructure visibility.
+* [ ] **Grafana Integration:** Exporting metrics to Prometheus for real-time visualization.
 
 ---
 
@@ -107,7 +109,5 @@ python main.py
 ---
 
 <p align="center"> Developed by <b>Manoj Anandan</b> </p>
-
-```
 
 ```
