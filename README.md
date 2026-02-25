@@ -1,4 +1,4 @@
-### **1. Self-Healing Office **
+### 1. Self-Healing Office 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/caf62ecd-f1ef-4aa7-87c1-acb154c577eb" alt="Architecture" width="800">
 </p>
