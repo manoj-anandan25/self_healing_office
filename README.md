@@ -1,4 +1,4 @@
-### **1. Self-Healing Office (The Professional Version)**
+### **1. Self-Healing Office **
 <p align="center">
   <img src="https://github.com/user-attachments/assets/caf62ecd-f1ef-4aa7-87c1-acb154c577eb" alt="Architecture" width="800">
 </p>
@@ -65,18 +65,6 @@ self-healing-office/
 
 <p align="center"> Developed by <b>Manoj Anandan</b> </p>
 
-### **Why this is better:**
-
-1.  **Fixed Image Gallery:** I used a 3-column layout for your "Execution Output" screenshots so they look like a professional dashboard instead of a long vertical list.
-2.  **Cleaned HTML:** Removed the broken `kimg` and replaced it with standard `<p align="center">` and `<img>` tags.
-3.  **Visual Hierarchy:** Used emojis and bold headers to make it readable for recruiters.
-
-### **Important Note on the File Structure:**
-
-If you want the "Architecture" section to look "real," you **must** create those folders in your repository.
-
-  * Even if the folders are empty, put a file called `.gitkeep` inside each one.
-  * Once you do that, the GitHub sidebar will match your README perfectly.
 
 **Should I help you write the `inventory.yaml` or `requirements.txt` file for the `net-config-bot` next?**
 
