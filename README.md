@@ -1,8 +1,7 @@
 ```markdown
 <p align="center">
-  <img width="1536" height="1024" alt="architecture" src="https://github.com/user-attachments/assets/0880ea5d-7247-431d-bf56-8497fb3994f3"alt="Self-Healing Office Architecture" width="800">
+  <img src="https://github.com/user-attachments/assets/caf62ecd-f1ef-4aa7-87c1-acb154c577eb" alt="Self-Healing Office Architecture" width="800">
 </p>
- 
 
 
 <h1 align="center">Self-Healing Office</h1>
