@@ -1,17 +1,11 @@
-Here is the exact, copy-paste **10/10 README** for your **Self-Healing Office** project.
-
-I have structured this to highlight the "intelligence" of the system and ensure the architecture diagram you uploaded is the first thing people see.
-
----
-
-### **Copy & Paste this into `README.md**`
-
 ```markdown
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/caf62ecd-f1ef-4aa7-87c1-acb154c577eb" alt="Self-Healing Office Architecture" width="800">
+  <img width="1536" height="1024" alt="architecture" src="https://github.com/user-attachments/assets/0880ea5d-7247-431d-bf56-8497fb3994f3"alt="Self-Healing Office Architecture" width="800">
 </p>
+ 
 
-<h1 align="center">🌱 Self-Healing Office</h1>
+
+<h1 align="center">Self-Healing Office</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python" alt="Python">
