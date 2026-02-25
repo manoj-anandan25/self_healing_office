@@ -2,6 +2,7 @@
 
 ## Overview
 A Python-based agent that monitors network health, classifies failures, generates incidents, and produces post-incident reports. Designed to simulate enterprise triage workflows (LAN/WLAN, DNS, routing, ISP).
+![Uploading ChatGPT Image Feb 25, 2026, 02_02_42 PM.png…]()
 
 ## Architecture
 self-healing-office/ 
