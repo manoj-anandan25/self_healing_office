@@ -66,5 +66,3 @@ self-healing-office/
 <p align="center"> Developed by <b>Manoj Anandan</b> </p>
 
 
-**Should I help you write the `inventory.yaml` or `requirements.txt` file for the `net-config-bot` next?**
-
